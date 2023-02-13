@@ -1,1 +1,31 @@
-# Excercise
+# Coincidence Detector
+
+This is a program that detects the number of times employees have coincided in the office based on the schedule they worked. The schedule is provided as a text file with the name of an employee and the schedule they worked.
+------------------
+Overview
+
+The program reads the input file, parses it and stores the schedule data. Then, the program calculates the number of times employees have coincided in the office by comparing the schedules of each employee. The result is displayed in the console.
+------------------
+Architecture
+
+The program is written in JavaScript and it uses the fs module from Node.js to read the input file. The input file is assumed to be in the same directory as the program and its named "input.txt".
+------------------
+Approach and methodology
+
+The input file is read line by line and each line is split into two parts: the name of the employee and the schedule data. The name of the employee is used as the key for the schedule data in a dictionary-like object called schedule.
+
+Next, the program loops through each pair of employees and calculates the number of times they have coincided in the office. This is done by looping through each day of the schedule of one of the employees and checking if the other employee also worked on that day. If they both worked on the same day, the count is incremented.
+
+Finally, the result is displayed in the console.
+------------------
+Running the program locally
+
+Clone the repository or download the program files.
+Open a terminal and navigate to the directory where the program files are located.
+Install the required dependencies by running npm install in the terminal.
+Create a text file named input.txt with the schedule data in the format specified in the prompt.
+Run the program by typing node index.js in the terminal and press enter.
+The result will be displayed in the console.
+Note: The program assumes that Node.js and npm are already installed on your system.
+
+------------------

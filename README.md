@@ -1,9 +1,9 @@
 Overview
-------------------
+
 
 This program detects the number of times employees have coincided hours in the office. The schedule is a text file with the name of an employee and the schedule they worked.
 The program reads the input file, stores, separates and compares the data and shows the coincidences. The result is displayed in the console.
-------------------
+
 Architecture
 
 The program its developed in JavaScript and uses Node.js to read the input file. The input file is in the same directory as the program and its named "input.txt".

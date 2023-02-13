@@ -20,12 +20,18 @@ Finally, the result is displayed in the console.
 ------------------
 Running the program locally
 
-Clone the repository or download the program files.
-Open a terminal and navigate to the directory where the program files are located.
-Install the required dependencies by running npm install in the terminal.
-Create a text file named input.txt with the schedule data in the format specified in the prompt.
-Run the program by typing node index.js in the terminal and press enter.
-The result will be displayed in the console.
+1-Download and extract the folder.
+
+2-Open a terminal and navigate to the directory where the program files are located.
+
+3-Its running in NODEJS & npm (In case dont have NPM run "npm install" in terminal)if you don't have you can donwload it from https://nodejs.org/ and install it.
+
+4-Use the "input.txt" to manage and manipulate the input as you want.
+
+5-Run the program by typing node index.js in the terminal and press enter.
+
+6-The result will be displayed in the console.
+
 Note: The program assumes that Node.js and npm are already installed on your system.
 
 ------------------

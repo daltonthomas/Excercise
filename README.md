@@ -24,7 +24,7 @@ Running the program locally
 
 2-Open a terminal and navigate to the directory where the program files are located.
 
-3-Its running in NODEJS & npm (In case dont have NPM run "npm install" in terminal)if you don't have you can donwload it from https://nodejs.org/ and install it.
+3-Its running in NODEJS & npm (In case dont have NPM run "npm install" in terminal)if you don't have node you can donwload it from https://nodejs.org/ and install it.
 
 4-Use the "input.txt" to manage and manipulate the input as you want.
 
